@@ -1,10 +1,10 @@
-function together(wordArray) {
-    let output = "";
-    for (let i = 0; i < wordArray.length; i++) {
-        output = output + wordArray[i];
-    }
-    return output;
+function countFigures (a, b, c) {
+    return a + b + c;
 }
+const firstOutput = countFigures(3, 4, 5);
+
+console.log(firstOutput);
+
 
 
 function add(num1, num2){
@@ -31,6 +31,7 @@ function findByName(users, name){
 module.exports = {
     add: add,
     findByName: findByName,
+    countFigures: countFigures,
 };
 
 

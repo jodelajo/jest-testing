@@ -3,9 +3,23 @@
 // const add = require('./index').add;
 // const findByName = require('./index').findByName;
 
-const {add, findByName} = require('./index');
+const {add, findByName, countFigures} = require('./index');
 
-test('add() function  should retun the sum of 2 numbers', () => {
+test('countFigures() function should be the sum of 3 figures', () => {
+    //ARRANGE
+    const a = 3;
+    const b = 4;
+    const c = 5;
+
+    //ACT
+    const firstOutput = countFigures(a, b, c);
+
+    //ASSERT
+    expect(firstOutput).toBe(12)
+});
+
+
+test('add() function  should return the sum of 2 numbers', () => {
     // console.log('Hallo, dit is een test, echt waar');
 
     //Arrange
