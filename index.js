@@ -1,11 +1,6 @@
-function countFigures (a, b, c) {
-    return a + b + c;
+function countFigures () {
+  // WRITE ME!
 }
-const firstOutput = countFigures(3, 4, 5);
-
-console.log(firstOutput);
-
-
 
 function add(num1, num2){
     // console.log('INPUT', num1, num2)
